@@ -1,0 +1,362 @@
+
+
+/*==========  Desktop First  ==========*/
+
+
+@media only screen and (max-width : 1200px)
+  .header, .sticky
+    &__logo
+      font-size: 16px
+      span
+        font-size: 10px
+    &__call
+      span
+        font-size: 16px
+  .header__logo
+    p
+      font-size: 16px      
+  .certificate-text
+    p
+      font-size: 46px
+  .footer  
+    &__call
+      text-align: left 
+      h4
+        margin-bottom: 15px
+    &__nav 
+      .nav-list li:last-child
+        margin-right: 20px    
+  
+ 
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px)
+  .offers__item
+    margin-bottom: 20px
+  .solutions__top
+    height: 25px
+  .hamburger
+    display: block
+    z-index: 1001
+    right: 15px
+    top: 25px
+  .header__nav
+    display: none  
+  .header
+    background-position-x: 20%;
+  .hamburger-box
+      right: 0
+
+  .is-active
+    right: 15px
+    top: 25px
+    .hamburger-inner,
+    .hamburger-inner:after,
+    .hamburger-inner:before
+      background-color: #000
+
+  .header
+    &__nav
+      display: block
+      padding-left: 20px
+      width: 270px
+      flex-direction: column
+      position: fixed
+      right: -270px
+      top: 0
+      z-index: 1000
+      height: 100vh
+      background-color: #fff
+      transition: all .3s
+    &__top-block
+      justify-content: space-between
+      #menu
+        display: flex
+        flex-direction: column
+        margin-top: 80px
+   
+        li
+          margin-bottom: 10px
+          a
+            color: #000
+    .header__call
+      margin-right: 20px        
+    &__nav-active
+      right: 0px
+    &__offers
+      flex-direction: column
+      .pros
+        margin-bottom: 20px    
+  .footer
+    &__top-block 
+      flex-direction: column
+    .copy
+      position: absolute
+      bottom: 0
+      left: 50%
+      transform: translate(-50%, -50%)
+  .certificate__list
+    margin-top: 100px
+  .certificate-text p
+    font-size: 34px
+  .example-form
+    flex-direction: column
+    margin: 0 auto
+    width: 100%               
+    .button
+      width: 270px
+      margin: 0 auto
+    .phone, .name
+      margin: 0 auto
+    input
+      margin-right: 0px
+      margin-bottom: 20px
+  .prices__consultation
+    .consultation  
+      align-items: center
+      flex-direction: column
+      border-bottom: 1px solid #fff
+      display: flex
+     
+      span 
+        display: none
+  .questions
+    form
+      label.error
+        bottom: -5px
+    h2
+      font-size: 26px        
+  .history 
+    img
+      display: none
+  .guarantees__item
+    margin-top: 25px
+  .accordion__content
+    margin-left: 0          
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px)
+  
+  .work
+    padding: 40px 0
+  .reviews
+    padding: 40px 0
+  .history
+      h2
+        font-size: 36px
+  .reviews
+      h2
+        font-size: 36px 
+  .header
+    .button
+      margin-bottom: 70px
+    .propositions
+      li
+        font-size: 14px 
+    &__text
+      margin-top: 25px
+    &__top-block
+      flex-direction: row
+      align-items: baseline
+      justify-content: space-between
+    &__call
+      display: none 
+    h1
+      font-size: 20px   
+  .work__block
+    display: flex
+    flex-wrap: wrap
+    justify-content: start
+  .footer 
+    .phone
+      text-align: center
+    h4
+      text-align: center
+    &__nav
+      .nav-list
+        display: flex
+        flex-direction: column
+        li
+          margin-right: 0
+          &:last-child
+            margin-right: 0
+    &__top-block
+      align-items: center    
+  .ask-form
+    display: flex
+    flex-direction: column
+    align-items: center
+    .button
+      margin-top: 25px
+    .main-text
+      flex-direction: column
+  .reviews-carousel-item__top
+    flex-direction: column
+  .consultation
+    text-align: center
+  .main
+    input
+      margin-right: 0px    
+  .header .sticky
+    display: flex
+    flex-direction: row
+  .advantages__content
+    text-align: center
+  .reviews
+    .button
+      width: 220px
+    .owl-nav
+      display: none
+  .contacts
+    position: relative
+    bottom: 5px
+    margin-top: 20px
+    max-width: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    img
+      z-index: -1
+    &-text
+      flex-direction: column
+    &-phone
+      flex-direction: column
+  .reviews .reviews-carousel-item__text
+    padding: 10px 20px
+  .reviews .reviews-carousel
+    width: 100%  
+
+  
+@media only screen and (max-width : 480px)
+  .solutions
+    h4
+      padding-left: 45px
+  .work__item
+    width: 100%
+    margin-right: 0
+    span
+      left: 44%
+  .header__top-block
+    flex-direction: column
+    .phone
+      display: none
+  .history
+    h2
+      font-size: 30px
+
+  h2
+    font-size: 24px
+    text-align: center        
+  .sticky
+    font-size: 12px
+  section
+    padding: 30px 0
+  
+  .prices 
+    h2
+      font-size: 26px
+  .reviews
+    h2
+      margin-bottom: 0px
+      font-size: 30px
+    .button
+      width: 200px            
+  .work__item
+    align-items: center
+    text-align: center
+    span
+      text-align: center
+  .header__text
+    
+    margin-top: 30px
+    h1
+      font-size: 16px
+      line-height: 1.7
+  .history
+    padding: 11px
+    h2
+      margin: 0 0 10px                 
+  .guarantees__item
+    margin-top: 25px
+  .header .button
+    margin-bottom: 55px
+  .header__logo
+    p
+      font-size: 18px
+   
+  .prices 
+    .consultation 
+      p
+        font-size: 16px
+  .ask 
+    h2
+      font-size: 22px
+    p
+      font-size: 14px
+  
+  .reviews-carousel-item__top_tittle
+    text-align: center
+  .certificate
+    h2
+      font-size: 30px                
+@media only screen and (max-width : 320px)
+  
+  .sticky
+    p
+      font-size: 14px
+  
+  .header__logo
+    font-size: 20px
+     
+  
+  .guarantees__item 
+    margin-top: 15px
+    h6 
+      font-size:  20px
+      span
+        font-size: 20px
+    img
+      position: relative
+    .guarantee-image
+      position: relative
+  .guarantees__text
+    margin-top: 30px
+    padding: 0                
+  .ask 
+    h2
+      font-size: 20px
+  .certificate
+    h2
+      font-size: 20px
+  section
+    padding: 10px 0         
+  .certificate
+    h2
+      text-align: center
+  .footer__call
+    text-align: center     
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+  .consultation:last-child
+      margin-top: 120px
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+  /**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+  /**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+  /**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+  /**/
+
